@@ -21,6 +21,6 @@ for year in range(1940, 2020):
             sufix = "sbl" + str(year) + "_" + str(number) + "_" + lang + ".pdf"
             url = prefix + sufix
             filename = location + sufix
-            print "Downloadind " + url
+            print "Downloading " + url
             result = download_file(url, filename)
             print result
